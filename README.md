@@ -27,3 +27,7 @@ Creo que ya podemos sacar el gorro navideño, el turrón... ¡Y el árbol de nav
 6. [**Rematando los exámenes finales**](challenge-06/README.md) <span style=" background-color: orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
 
 Buffff! Ya huelo las vacaciones pero todavía falta terminar los exámenes finales. ¡Y toca un poco de matemáticas! 😱 ¡Ayúdame!
+
+7. [**Buscando en el almacén...**](challenge-07/README.md) <span style=" background-color: orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
+
+Tenemos un amigo que trabaja en una tienda y no es capaz de encontrar en el almacén los prductos que tiene... ¿Le ayudamos?
