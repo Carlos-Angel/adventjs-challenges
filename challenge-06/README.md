@@ -1,3 +1,7 @@
+[**ver mas retos**](../README.md)
+
+## Reto 06: Rematando los exámenes finales
+
 Antes de poder disfrutar de la navidad... nos toca terminar de rematar los exámenes finales. ¡Y toca un poco de matemáticas! 😱
 
 A una función se le pasan dos parámetros: un Array con números y el resultado que se espera.
