@@ -12,6 +12,10 @@ function isValid(letter) {
   gifs.forEach((gif) => {
     if (/\[+|{+|]+|}+/g.test(gif)) statusLetter = false;
     if (/\(\)/g.test(gif)) statusLetter = false;
+
+    if (gif.includes('(')) {
+      if (!gif.includes(')')) statusLetter = false;
+    }
   });
   return statusLetter;
 }
