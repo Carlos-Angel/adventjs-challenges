@@ -23,3 +23,7 @@ Creo que ya podemos sacar el gorro navideño, el turrón... ¡Y el árbol de nav
 5. [**Contando los días para los regalos**](challenge-05/README.md) <span style=" background-color:#18e64c; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Fácil</span>
 
 ¡Qué ganas de abrir los regalos 🎁! Estoy tan nervioso que no paro de contar los días que faltan 🤣. ¿Me ayudas creando un programita? ¡Venga!
+
+6. [**Rematando los exámenes finales**](challenge-06/README.md) <span style=" background-color: orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
+
+Buffff! Ya huelo las vacaciones pero todavía falta terminar los exámenes finales. ¡Y toca un poco de matemáticas! 😱 ¡Ayúdame!
