@@ -31,3 +31,7 @@ Buffff! Ya huelo las vacaciones pero todavía falta terminar los exámenes final
 7. [**Buscando en el almacén...**](challenge-07/README.md) <span style=" background-color: orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
 
 Tenemos un amigo que trabaja en una tienda y no es capaz de encontrar en el almacén los prductos que tiene... ¿Le ayudamos?
+
+8. [**La locura de las criptomonedas**](challenge-08/README.md) <span style=" background-color: orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
+
+Hemos invertido en criptomonedas... Y el otro día se pusieron todos los valores en rojo. En lugar de asustarnos, vamos a ver si podemos optimizar nuevas inversiones.
