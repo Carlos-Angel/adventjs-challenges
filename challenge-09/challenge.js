@@ -3,15 +3,14 @@ function groupBy(collection, it) {
   const group = {};
 
   collection.forEach((item) => {
-    let type = item;
-    if (typeGroup === 'function') type = it(item);
-    if (it === 'length') type = item.length;
-    if (typeof it === 'string' && typeof item === 'object') {
-      console.log((type = item[it]));
-      type = item[it];
-    }
-
-    console.log(typeof item === 'object');
+    const type =
+      typeGroup === 'function'
+        ? it(item)
+        : it === 'length'
+        ? item.length
+        : typeof it === 'string' && typeof item === 'object'
+        ? item[it]
+        : item;
 
     if (group[type]) {
       group[type].push(item);
