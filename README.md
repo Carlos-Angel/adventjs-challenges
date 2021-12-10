@@ -35,3 +35,7 @@ Tenemos un amigo que trabaja en una tienda y no es capaz de encontrar en el alma
 8. [**La locura de las criptomonedas**](challenge-08/README.md) <span style=" background-color: orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
 
 Hemos invertido en criptomonedas... Y el otro día se pusieron todos los valores en rojo. En lugar de asustarnos, vamos a ver si podemos optimizar nuevas inversiones.
+
+9. [**Agrupando cosas automáticamente**](challenge-09/README.md) <span style=" background-color: red; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Difícil</span>
+
+Tenemos un montón de cajas en la fábrica de regalos... y como no automaticemos de alguna forma ordenar este desastre... ¡Igual nos quedamos sin Navidad!
