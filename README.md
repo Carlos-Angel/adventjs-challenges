@@ -47,3 +47,7 @@ De cara a las ventas navideñas, vamos a automatizar el cambio de las monedas pa
 11. [**¿Vale la pena la tarjeta fidelidad del cine?**](challenge-11/README.md) <span style=" background-color: orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
 
 ¡Este mes hay un montón de peliculones en el cine! Viendo que voy a tener que pasar bastante por taquilla también en 2022, estoy mirando de optimizar mis gastos. ¡Ayúdame!
+
+12. [**La ruta perfecta para dejar los regalos**](challenge-12/README.md) <span style=" background-color: red; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Difícil</span>
+
+En el taller de Santa ya están preparándolo todo para poder hacer la ruta perfecta para dejar los regalos. El problema es que hay unos obstáculos en el camino que debemos sortear...
