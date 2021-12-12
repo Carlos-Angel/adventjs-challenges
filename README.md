@@ -43,3 +43,7 @@ Tenemos un montón de cajas en la fábrica de regalos... y como no automaticemos
 10. [**La máquina de cambio**](challenge-10/README.md) <span style=" background-color: red; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Difícil</span>
 
 De cara a las ventas navideñas, vamos a automatizar el cambio de las monedas para que no se tenga que hacer manualmente. ¡Ganaremos tiempo! Pero primero, hay que programarlo.
+
+11. [**¿Vale la pena la tarjeta fidelidad del cine?**](challenge-11/README.md) <span style=" background-color: orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
+
+¡Este mes hay un montón de peliculones en el cine! Viendo que voy a tener que pasar bastante por taquilla también en 2022, estoy mirando de optimizar mis gastos. ¡Ayúdame!
