@@ -28,3 +28,23 @@ output:
 ```
 
 Ten en cuenta que los tests pueden ser más exhaustivos... 😝 **¡Cuidado con contar espacios vacíos!**
+
+## Estado: Resuelto
+
+```js
+export default function listGifts(letter) {
+  const arrayGifs = letter.trim().split(' ');
+  const list = {};
+
+  arrayGifs.forEach((gif) => {
+    if (list[gif]) {
+      list[gif] = list[gif] + 1;
+    } else {
+      if (gif[0] !== '_' && gif) {
+        list[gif] = 1;
+      }
+    }
+  });
+  return list;
+}
+```

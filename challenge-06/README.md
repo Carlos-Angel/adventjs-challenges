@@ -13,13 +13,33 @@ Si no se encuentra, se devuelve null.
 Veamos unos ejemplos:
 
 ```js
-sumPairs([3, 5, 7, 2], 10) // [3, 7]
-sumPairs([-3, -2, 7, -5], 10) // null
-sumPairs([2, 2, 3, 1], 4) // [2, 2]
-sumPairs([6, 7, 1, 2], 8) // [6, 2]
-sumPairs([0, 2, 2, 3, -1, 1, 5], 6) // [1, 5]
+sumPairs([3, 5, 7, 2], 10); // [3, 7]
+sumPairs([-3, -2, 7, -5], 10); // null
+sumPairs([2, 2, 3, 1], 4); // [2, 2]
+sumPairs([6, 7, 1, 2], 8); // [6, 2]
+sumPairs([0, 2, 2, 3, -1, 1, 5], 6); // [1, 5]
 ```
 
 El resultado tiene que ser un **array con dos números.**
 
 Una vez que tengas el resultado... ¿cómo podrías hacer que fuese lo más óptimo posible para **no tener que recorrer las mismas situaciones dos veces 🤔?**
+
+## Estado: Resuelto
+
+```js
+export default function sumPairs(numbers, result) {
+  const numbersTwo = [...numbers];
+  let a, b;
+  numbers.forEach((number, index) => {
+    numbersTwo.forEach((item, index2) => {
+      if (!a && !b) {
+        if (number + item === result && index !== index2) {
+          a = number;
+          b = item;
+        }
+      }
+    });
+  });
+  return a || b ? [a, b] : null;
+}
+```

@@ -23,3 +23,21 @@ Ejemplos:
 ```
 
 Crea una función que pasándole el texto de la carta, devuelva **true** si es válida y **false** si no lo es. ¡Y acaba con la travesura del Grinch!
+
+## Estado: Resuelto
+
+```js
+export default function isValid(letter) {
+  const gifs = letter.trim().split(' ');
+  let statusLetter = true;
+  gifs.forEach((gif) => {
+    if (/\[+|{+|]+|}+/g.test(gif)) statusLetter = false;
+    if (/\(\)/g.test(gif)) statusLetter = false;
+
+    if (gif.includes('(')) {
+      if (!gif.includes(')')) statusLetter = false;
+    }
+  });
+  return statusLetter;
+}
+```

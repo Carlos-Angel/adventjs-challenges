@@ -27,3 +27,20 @@ maxProfit(pricesDoge) = // -> -1 (no hay ganancia posible)
 const pricesAda = [3, 3, 3, 3, 3]
 maxProfit(pricesAda) = // -> -1 (no hay ganancia posible)
 ```
+
+## Estado: Resuelto
+
+```js
+export default function maxProfit(prices) {
+  let ganancia = 0;
+  prices.forEach((price, index) => {
+    for (let i = index; i < prices.length; i++) {
+      if (ganancia < prices[i] - price) {
+        ganancia = prices[i] - price;
+      }
+    }
+  });
+
+  return ganancia > 0 ? ganancia : -1;
+}
+```

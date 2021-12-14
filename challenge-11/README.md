@@ -25,3 +25,18 @@ shouldBuyFidelity(100); // true -> Mejor comprar tarjeta fidelidad
 ```
 
 La dificultad del reto está en encontrar una fórmula sencilla que nos diga el precio con descuento acumulado para la tarjeta fidelidad. 😜
+
+## Estado: Resuelto
+
+```js
+export default function shouldBuyFidelity(times) {
+  const ticketPrice = 12;
+  const fidelityCard = 250;
+  const percentageDiscount = 75;
+  let accumulate = fidelityCard;
+  for (let index = 1; index <= times; index++) {
+    accumulate += ticketPrice * Math.pow(percentageDiscount / 100, index);
+  }
+  return accumulate > ticketPrice * times ? false : true;
+}
+```

@@ -37,3 +37,13 @@ daysToXmas(date4); // -7
 ```
 
 Por cierto, la fecha de referencia para saber si es 25 de diciembre es **Dec 25, 2021.**
+
+## Estado: Resuelto
+
+```js
+export default function daysToXmas(date) {
+  const dateReference = new Date('Dec 25, 2021').getTime();
+  const diffDays = dateReference - date.getTime();
+  return Math.ceil(diffDays / (1000 * 60 * 60 * 24));
+}
+```
