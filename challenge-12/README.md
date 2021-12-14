@@ -47,3 +47,47 @@ getMinJump([9, 5, 1]) // -> 2
 ```
 
 La dificultad del reto está en pensar que sólo podemos configurar el salto del trineo una vez y que buscamos el salto mínimo que nos serviría para sortear todos los obstaculos.
+
+## Estado: Resuelto
+
+```js
+export default function getMinJump(obstacles) {
+  let minJump = 0;
+  let jumpsTemp;
+  const obstaclesOrdered = obstacles.sort((a, b) => a - b);
+
+  for (
+    let jump = 1;
+    jump < obstaclesOrdered[obstaclesOrdered.length - 1];
+    jump++
+  ) {
+    let isJumpIncorrect = false;
+    let jumps = 0;
+
+    // jump plus
+    for (
+      let i = 0;
+      i < obstaclesOrdered[obstaclesOrdered.length - 1] + 1;
+      i += jump
+    ) {
+      if (obstaclesOrdered.find((item) => item === i)) {
+        // jump incorrect
+        isJumpIncorrect = true;
+      }
+      jumps++;
+    }
+
+    if (!isJumpIncorrect && minJump === 0) {
+      minJump = jump;
+      jumpsTemp = jumps;
+    }
+
+    if (!isJumpIncorrect && jumpsTemp < jumps) {
+      minJump = jump;
+      jumpsTemp = jumps;
+    }
+  }
+
+  return minJump;
+}
+```
