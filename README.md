@@ -55,3 +55,7 @@ En el taller de Santa ya están preparándolo todo para poder hacer la ruta perf
 13. [**Envuelve regalos con asteriscos**](challenge-13/README.md) <span style=" background-color:#18e64c; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Fácil</span>
 
 Estamos a fuego envolviendo regalos... ¡pero necesitamos automatizar esto antes de que los elfos decidan ponerse en huelga! ¡Salva la Navidad (otra vez)!
+
+14. [**En busca del reno perdido**](challenge-14/README.md) <span style=" background-color:orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
+
+En el pueblo de Santa Claus han ido a pasear a los renos y se les ha escapado uno. ¡Madre mía! Ahora a buscarlo. 😿
