@@ -40,7 +40,7 @@ wrapGifts(['📷']);
 */
 ```
 
-## Estado: Pendiente
+## Estado: Resuelto
 
 ```js
 export default function wrapGifts(gifts) {
