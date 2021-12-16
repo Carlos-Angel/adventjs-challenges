@@ -59,3 +59,7 @@ Estamos a fuego envolviendo regalos... ¡pero necesitamos automatizar esto antes
 14. [**En busca del reno perdido**](challenge-14/README.md) <span style=" background-color:orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
 
 En el pueblo de Santa Claus han ido a pasear a los renos y se les ha escapado uno. ¡Madre mía! Ahora a buscarlo. 😿
+
+15. [**El salto perfecto**](challenge-15/README.md) <span style=" background-color:orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
+
+Estamos optimizando el trineo para que los saltos que da sean lo más óptimos posible. Un amigo que tiene un Tesla nos ha explicado la mejor forma. ¡A ver si sacamos una función para aseguarnos!
