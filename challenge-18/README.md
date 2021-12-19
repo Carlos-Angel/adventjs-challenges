@@ -24,11 +24,18 @@ fixFiles(files3) // ['file', 'file(1)', 'icon', 'icon(1)', 'icon(1)(1)']
 
 Por cierto, **nos han dicho que son Agile y usan Scrum.** Por eso quieren saber cuánto tiempo vas a tardar para saber cuándo van a poder usarlo. Que hay prisa. 😝 Así que entra a Discord y cuéntanos.
 
-## Estado: Pendiente
+## Estado: Resuelto
 
 ```js
 export default function fixFiles(files) {
-  // ¡No olvides compartir tu solución en redes!
-  return [];
+  const filesCount = {};
+  return files.map((file) => {
+    const repeat = filesCount[file] ? `(${filesCount[file]})` : '';
+    const newFile = repeat ? `${file}${repeat}` : file;
+    if (!filesCount[file]) filesCount[file] = 1;
+    else filesCount[file]++;
+
+    return newFile;
+  });
 }
 ```
