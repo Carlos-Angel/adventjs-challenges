@@ -30,11 +30,28 @@ learn(5, [5, 5, 5]); // null -> no nos da tiempo a hacer dos cursos
 
 Mirando todo el tema de Platzi, además nos hemos dado cuenta que tienen un descuento especial para Navidad. ¿No sabes qué regalar? Regala conocimiento 🎓.
 
-## Estado: Pendiente
+## Estado: Resuelto
 
 ```js
 export default function learn(time, courses) {
-  // ¡No olvides compartir tu solución en redes!
-  return [0, 0];
+  let rta = [0, 0];
+  courses.forEach((course1, index1) => {
+    courses.forEach((course2, index2) => {
+      if (index1 !== index2) {
+        if (course1 + course2 <= time) {
+          if (rta[0] !== rta[1]) {
+            if (courses[rta[0]] + courses[rta[1]] < course1 + course2) {
+              rta[0] = index1;
+              rta[1] = index2;
+            }
+          } else {
+            rta[0] = index1;
+            rta[1] = index2;
+          }
+        }
+      }
+    });
+  });
+  return rta[0] === rta[1] ? null : rta;
 }
 ```
