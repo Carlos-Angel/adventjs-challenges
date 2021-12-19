@@ -67,3 +67,15 @@ Estamos optimizando el trineo para que los saltos que da sean lo más óptimos p
 16. [**Descifrando los números...**](challenge-16/README.md) <span style=" background-color:#18e64c; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Fácil</span>
 
 Hemos encontrado unas cartas misteriosas que contienen un montón de símbolos. Por suerte tenemos el diccionario para decodificarlas. ¡Vamos a ver qué contienen!
+
+17. [**La locura de enviar paquetes en esta época**](challenge-17/README.md) <span style=" background-color:red; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Difícil</span>
+
+Llega la época de navidades y las empresas de transporte están sacando cuentas del número de paquetes van a poder enviar. ¡A ver cómo lo hacemos!
+
+18. [**El sistema operativo de Santa Claus**](challenge-18/README.md) <span style=" background-color:#18e64c; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Fácil</span>
+
+Estamos programando un sistema operativo para los ordenadores del taller de Santa Claus... Tenemos que gestionar los nombres de los archivos para que no se repitan.
+
+19. [**¿Qué deberíamos aprender en Platzi?**](challenge-19/README.md) <span style=" background-color:orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
+
+¡Hay un montón de cursos en Platzi! Queremos hacer dos cursos y nuestro tiempo es limitado. ¡Vamos a crear una función para elegir los dos mejores cursos a hacer según nuestro tiempo!
