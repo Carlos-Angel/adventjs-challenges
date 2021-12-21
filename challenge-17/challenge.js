@@ -1,14 +1,13 @@
 function countPackages(carriers, currierID) {
   let packages = 0;
-  let carrier = 0;
-  while (carriers[carrier][0] != currierID) {
-    carrier++;
-  }
+  const carrier = carriers.find((carrier) => carrier[0] === currierID);
 
-  packages += carriers[carrier][1];
-  for (let i = 0; i < carriers[carrier][2].length; i++) {
-    packages += countPackages(carriers, carriers[carrier][2][i]);
-  }
+  packages += carrier[1];
+  const employees = carrier[2];
+  packages += employees.reduce(
+    (packages, employee) => packages + countPackages(carriers, employee),
+    0,
+  );
   return packages;
 }
 
