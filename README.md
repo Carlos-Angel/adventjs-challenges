@@ -79,3 +79,7 @@ Estamos programando un sistema operativo para los ordenadores del taller de Sant
 19. [**¿Qué deberíamos aprender en Platzi?**](challenge-19/README.md) <span style=" background-color:orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
 
 ¡Hay un montón de cursos en Platzi! Queremos hacer dos cursos y nuestro tiempo es limitado. ¡Vamos a crear una función para elegir los dos mejores cursos a hacer según nuestro tiempo!
+
+20. [**¿Una carta de pangramas? ¡QUÉ!**](challenge-20/README.md) <span style=" background-color:#18e64c; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Fácil</span>
+
+Los niños de Laponia tienen en su clase de castellano el reto de crear una carta a Santa Claus con todas las letras del alfabeto...¡Ayuda a detectar si lo hacen bien!
