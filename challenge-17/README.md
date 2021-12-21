@@ -41,11 +41,20 @@ countPackages(carriers2, 'camila'); // 15
 
 **¡Ten cuidado!** Como has visto en el segundo ejemplo, **el organigrama puede tener diferentes niveles y además nos viene información que puede ser que no necesitemos.** Debemos tener en cuenta el parámetro de <mark style="background-color: black;color:#fff">carrierID</mark> para calcular bien el número y contar todo su equipo.
 
-## Estado: Pendiente
+## Estado: Resuelto
 
 ```js
 export default function countPackages(carriers, carrierID) {
-  // ¡No olvides compartir tu solución en redes!
-  return 0;
+  let packages = 0;
+  let carrier = 0;
+  while (carriers[carrier][0] != currierID) {
+    carrier++;
+  }
+
+  packages += carriers[carrier][1];
+  for (let i = 0; i < carriers[carrier][2].length; i++) {
+    packages += countPackages(carriers, carriers[carrier][2][i]);
+  }
+  return packages;
 }
 ```
