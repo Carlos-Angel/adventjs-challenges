@@ -87,3 +87,7 @@ Los niños de Laponia tienen en su clase de castellano el reto de crear una cart
 21. [**La locura de enviar paquetes en esta época**](challenge-21/README.md) <span style=" background-color:red; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Difícil</span>
 
 La gente cree que la bolsa de Santa Claus no tiene fondo pero la realidad es que son los elfos que se encargan de hacer que sus viajes encajen para llevar y recoger todos los regalos por todo el mundo.
+
+22. [**¿Cuantos adornos necesita el árbol?**](challenge-22/README.md) <span style=" background-color:orange; color: white; font-weight: bold; text-align: center; border-radius: 5px; padding: 0 8px;">Normal</span>
+
+¡Ay! Que llega la Navidad y no hemos decorado todavía el árbol. 🎄😱 ¡Tenemos que hacer algo lo antes posible!
