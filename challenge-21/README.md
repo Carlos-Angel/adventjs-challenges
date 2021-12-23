@@ -60,20 +60,17 @@ Lo difícil, e importante, es que entiendas que Santa Claus **va entregando y re
 
 ```js
 export default function canCarry(capacity, trips) {
-  let gifs = 0;
-  let isCapacity = true;
-  trips.forEach((trip, index) => {
-    gifs += trip[0];
-
+  const totalGifts = trips.reduce((gifts, trip, index) => {
+    gifts += trip[0];
     if (index > 0) {
       const beforeTrip = trips[index - 1];
       if (beforeTrip[2] <= trip[1]) {
-        gifs -= beforeTrip[0];
+        gifts -= beforeTrip[0];
       }
     }
+    return gifts;
+  }, 0);
 
-    if (gifs > capacity) isCapacity = false;
-  });
-  return isCapacity;
+  return totalGifts <= capacity;
 }
 ```
