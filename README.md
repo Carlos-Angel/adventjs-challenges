@@ -8,7 +8,7 @@
 
 ## 2021: Challenges
 
-**Dificultad:** 🟢 Fácil 🟠 Normal 🔴 Difícil
+**Dificultad:** 🟢 Fácil 🟠 Normal 🔴 Difícil 🟣 Muy Difícil
 
 1. [**Contando ovejas para dormir**](challenge-01/README.md) 🟢
 
@@ -97,3 +97,7 @@ La gente cree que la bolsa de Santa Claus no tiene fondo pero la realidad es que
 22. [**¿Cuantos adornos necesita el árbol?**](challenge-22/README.md) 🟠
 
 ¡Ay! Que llega la Navidad y no hemos decorado todavía el árbol. 🎄😱 ¡Tenemos que hacer algo lo antes posible!
+
+23. [**¿Puedes reconfigurar las fábricas para no parar de crear regalos?**](challenge-23/README.md) 🟣
+
+Santa Claus quiere las máquinas funcionando las 24 horas, como si esto fuera una rave de Pocholo. Chiki pun chiki pun. ¡Ayúdale a conseguirlo!
