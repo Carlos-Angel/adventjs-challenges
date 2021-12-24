@@ -101,3 +101,7 @@ La gente cree que la bolsa de Santa Claus no tiene fondo pero la realidad es que
 23. [**¿Puedes reconfigurar las fábricas para no parar de crear regalos?**](challenge-23/README.md) 🟣
 
 Santa Claus quiere las máquinas funcionando las 24 horas, como si esto fuera una rave de Pocholo. Chiki pun chiki pun. ¡Ayúdale a conseguirlo!
+
+24. [**Comparando árboles de Navidad**](challenge-24/README.md) 🟠
+
+El abuelo y la abuela llevan discutiendo todo el día que si los árboles de Navidad son todos iguales... ¡Salgamos de dudas!
