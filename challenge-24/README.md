@@ -32,7 +32,7 @@ El cuñado 🦹‍♂️, que se las sabe todas, me ha dicho que tenga cuidado p
 ## Estado: Resuelto
 
 ```js
-export default export default function checkIsSameTree(treeA, treeB) {
+export default function checkIsSameTree(treeA, treeB) {
   const countDecorations = (bigTree) => {
     let decoradors = bigTree.value || 0;
 
@@ -44,5 +44,4 @@ export default export default function checkIsSameTree(treeA, treeB) {
 
   return countDecorations(treeA) === countDecorations(treeB);
 }
-
 ```
