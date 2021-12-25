@@ -105,3 +105,7 @@ Santa Claus quiere las máquinas funcionando las 24 horas, como si esto fuera un
 24. [**Comparando árboles de Navidad**](challenge-24/README.md) 🟠
 
 El abuelo y la abuela llevan discutiendo todo el día que si los árboles de Navidad son todos iguales... ¡Salgamos de dudas!
+
+25. [**El último juego y hasta el año que viene 👋**](challenge-25/README.md) 🟠
+
+Un ratón ha visto que en el comedor ha quedado un montón de comida 🥮 y ya está relamiéndose los bigotes por el festín que se va a pegar. 🐭
