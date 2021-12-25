@@ -1,4 +1,4 @@
-[**ver mas retos**](../README.md)
+[**ver mas retos**](../../README.md)
 
 ## Reto 17: La locura de enviar paquetes en esta época
 

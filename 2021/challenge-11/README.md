@@ -1,4 +1,4 @@
-[**ver mas retos**](../README.md)
+[**ver mas retos**](../../README.md)
 
 ## Reto 11: ¿Vale la pena la tarjeta fidelidad del cine?
 

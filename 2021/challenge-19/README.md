@@ -1,4 +1,4 @@
-[**ver mas retos**](../README.md)
+[**ver mas retos**](../../README.md)
 
 ## Reto 19: ¿Qué deberíamos aprender en Platzi?
 

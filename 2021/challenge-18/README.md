@@ -1,4 +1,4 @@
-[**ver mas retos**](../README.md)
+[**ver mas retos**](../../README.md)
 
 ## Reto 18: El sistema operativo de Santa Claus
 

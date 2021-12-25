@@ -1,4 +1,4 @@
-[**ver mas retos**](../README.md)
+[**ver mas retos**](../../README.md)
 
 ## Reto 23: ¿Puedes reconfigurar las fábricas para no parar de crear regalos?
 
