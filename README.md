@@ -1,10 +1,10 @@
 ## AdventJs
 
 <p align="center"> 
-  <img src=https:/://i.imgur.com/mOUN7uE.png/>
+  <img src=https://i.imgur.com/mOUN7uE.png/>
 </p>
 
-25 retos con javascript de la iniciativa [adventjs](https:/://adventjs.dev) propuesto por el desarrollador **Miguel Ángel Durán**
+25 retos con javascript de la iniciativa [adventjs](https://adventjs.dev) propuesto por el desarrollador **Miguel Ángel Durán**
 
 ## 2021: Challenges
 
