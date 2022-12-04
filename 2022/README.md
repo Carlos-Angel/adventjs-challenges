@@ -11,7 +11,7 @@
 |  #  |                  challenge                  | difficulty |                   description                   |              solution               |
 | :-: | :-----------------------------------------: | :--------: | :---------------------------------------------: | :---------------------------------: |
 |  1  | ¡Automatizando envolver regalos de navidad! |     🟢     | [show](https://adventjs.dev/challenges/2022/1)  | [code](2022/challenge-01/README.md) |
-|  2  |                                             |            | [show](https://adventjs.dev/challenges/2022/2)  |                                     |
+|  2  |       Nadie quiere hacer horas extra        |     🟢     | [show](https://adventjs.dev/challenges/2022/2)  | [code](2022/challenge-02/README.md) |
 |  3  |                                             |            | [show](https://adventjs.dev/challenges/2022/3)  |                                     |
 |  4  |                                             |            | [show](https://adventjs.dev/challenges/2022/4)  |                                     |
 |  5  |                                             |            | [show](https://adventjs.dev/challenges/2022/5)  |                                     |
