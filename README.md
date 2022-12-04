@@ -13,7 +13,7 @@
 |  1  |    ¡Automatizando envolver regalos de navidad!    |     🟢     | [show](https://adventjs.dev/challenges/2022/1)  | [code](2022/challenges/01/README.md) |
 |  2  |          Nadie quiere hacer horas extra           |     🟢     | [show](https://adventjs.dev/challenges/2022/2)  | [code](2022/challenges/02/README.md) |
 |  3  | ¿Cuántas cajas de regalos puede llevar Papá Noel? |     🟢     | [show](https://adventjs.dev/challenges/2022/3)  | [code](2022/challenges/03/README.md) |
-|  4  |                                                   |            | [show](https://adventjs.dev/challenges/2022/4)  |                                      |
+|  4  |      Una caja dentro de otra caja y otra...       |     🟠     | [show](https://adventjs.dev/challenges/2022/4)  | [code](2022/challenges/04/README.md) |
 |  5  |                                                   |            | [show](https://adventjs.dev/challenges/2022/5)  |                                      |
 |  6  |                                                   |            | [show](https://adventjs.dev/challenges/2022/6)  |                                      |
 |  7  |                                                   |            | [show](https://adventjs.dev/challenges/2022/7)  |                                      |
